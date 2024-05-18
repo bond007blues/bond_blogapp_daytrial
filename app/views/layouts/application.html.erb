@@ -11,7 +11,17 @@
   </head>
 
   <body>
-    <p>共通化部分</p>
+      <header class="header">
+        <p class="header_pageTitle">新着記事</p>
+        <div class="dropdown">
+          <%# 画像を表示 %>
+          <%= image_tag 'default-avatar.png', class: 'header_avater dropbtn' %>
+          <div class="dropdown-content">
+            <a href="#">プロフィール</a>
+            <a href="#">ログアウト</a>
+          </div>
+        </div>
+      </header>
     <%= yield %>
     <%# ページをとんでも必ず表示される %>
     <%# 共通化されているものという認識 %>
