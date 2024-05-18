@@ -1,9 +1,7 @@
-class HomeController < ApplicationController
-    def index
-      @article = Article.first
-    end
-    def about
-    end
+class ArticlesController < ApplicationController
+  def index
+    @article = Article.first
+  end
 end
 #renderは表示するを意味する
 #index.html.erbはそのままでは解釈できない
