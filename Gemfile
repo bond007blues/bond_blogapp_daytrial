@@ -24,6 +24,7 @@ gem 'jbuilder', '~> 2.7'
 #fakerはダミーを作るためのgem　https://github.com/faker-ruby/faker
 gem 'faker'
 gem 'hamlit'
+gem 'annotate'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
