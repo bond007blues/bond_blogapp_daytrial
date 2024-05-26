@@ -8,7 +8,6 @@
 
 #ダミーデータを作るためのファイル
 
-
 10.times do
     Article.create(
         title: Faker::Lorem.sentence(word_count: 5),
