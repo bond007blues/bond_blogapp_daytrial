@@ -23,6 +23,8 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 #fakerはダミーを作るためのgem　https://github.com/faker-ruby/faker
 gem 'annotate'
+gem 'better_errors'
+gem 'binding_of_caller'
 gem 'faker'
 gem 'hamlit'
 
